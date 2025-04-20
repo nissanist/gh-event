@@ -8,7 +8,7 @@ function MainContent() {
   function toggleHelp() {
     setHelpVisible((isVisible) => !isVisible);
   }
-// add a comment to test of workflow trigger
+// add a comment to test of workflow trigger cancel
   return (
     <main>
       <button onClick={toggleHelp}>{helpVisible ? 'Hide' : 'Show'} Help</button>
