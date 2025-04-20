@@ -9,7 +9,7 @@ on:
       - main # main
       - 'dev-*' # dev-new dev-this-is-new
       - 'feat/**' # feat/new feat/new/button
-      # developer-1
+      # developer-1 is not in branch list
     paths-ignore:
       - '.github/workflows/*'
 jobs:
